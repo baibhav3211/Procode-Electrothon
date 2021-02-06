@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+.image-holder{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.image-holder img{
+    width: 100%;   
+}
+
+.image-holder h1{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 70px; 
+    color: #fff;
+}
+
+.row .active .col{
+    height: 50px; 
+}
+
+.row .card .card-img-top1{
+    height: 250px;
+    width: 100%; 
+}
+
+.row .card{
+    overflow:hidden;
+}
+
+.row .card .card-body{
+   height: 300px;
+}
+
+.author{
+    margin:  0 13px;
+}
+
+.like{
+    margin-right: 13px;
+}
+
+.row .card:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .image-holder{
+        height: 170px;
+    }
+    .image-holder h1{
+        font-size: 30px;
+        left: 35%;
+    }
+}
